@@ -7,7 +7,7 @@ Góc Truyện là một ứng dụng web cho phép người dùng đọc truyệ
 1. Clone repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/Nguyenx2/GocTruyen
    ```
 
 2. Cài đặt các dependencies:
