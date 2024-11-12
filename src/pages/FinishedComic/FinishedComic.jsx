@@ -7,7 +7,6 @@ import usePageQuery from "../../hooks/usePageQuery";
 
 const FinishedComic = () => {
   const page = usePageQuery();
-  console.log(page);
 
   const {
     data: finishedComic,
@@ -22,7 +21,6 @@ const FinishedComic = () => {
       </HStack>
     );
   }
-  console.log(finishedComic);
 
   return (
     <Layout>
