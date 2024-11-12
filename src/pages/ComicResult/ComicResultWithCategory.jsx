@@ -16,7 +16,7 @@ const ComicResultWithCategory = () => {
     data: comicResult,
     error,
     isLoading,
-  } = useQuery(["comicResult", slug, page], () => fetchComicWithCategory);
+  } = useQuery(["comicResult", slug, page], fetchComicWithCategory);
 
   if (isLoading) {
     return (
